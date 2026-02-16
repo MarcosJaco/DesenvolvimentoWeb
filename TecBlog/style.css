@@ -1,0 +1,162 @@
+/* Zerar formatação padrão */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Formataçã geral*/
+
+body {
+    background-color: #eeeeee;
+    font-size: 1em;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.centralizar {
+    text-align: center;
+    margin: 10px;
+}
+
+
+/* Formataçã Cabeçalho*/
+
+.menu:link,
+.menu:visited {
+    color: white;
+    padding: 8px 12px;
+}
+
+.menu:hover {
+    color: #E6B815;
+    background-color: white;
+}
+
+#menu {
+    background-color: #E6B815;
+    padding: 10px;
+    text-align: center;
+}
+
+#tec {
+    font-size: 2.5em;
+    color: black;
+}
+
+#blog {
+    color: white;
+}
+
+#area-logo,
+#area-navegar {
+    margin: 10px;
+}
+
+#area-logo {
+    margin-bottom: 20px;
+}
+
+/* formatação conteúdo */
+
+.titulo-postagem {
+    color: #E6B815;
+    font-size: 1.6em;
+}
+
+.titulo-lateral {
+    font-size: 1.2em;
+    background-color: #d0d0d0;
+    padding: 5px;
+    margin: 0px auto;
+}
+
+.data-postado {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+main {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagem {
+    width: 640px;
+    float: left;
+}
+
+#area-lateral {
+    width: 260px;
+    float: right;
+}
+
+.postagem {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.leia-mais:link {
+    color: #E6B815;
+}
+
+.leia-mais:visited {
+    color: #E6B815;
+}
+
+.leia-mais:hover {
+    color: #E6B815;
+    text-decoration: underline;
+
+}
+
+#postagens-recentes {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+}
+
+.divisor {
+    margin: 5px;
+}
+
+#categorias {
+    width: 90%;
+    margin: 15px auto;
+    background-color: white;
+    padding: 10px;
+}
+
+#categorias a:link {
+    color: #E6B815;
+}
+
+#categorias a:visited {
+    color: #E6B815;
+}
+
+#categorias a:hover {
+    color: #E6B815;
+    text-decoration: underline;
+}
+
+#WhatsApp {
+    width: 100px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+footer {
+    clear: both;
+    background-color:  #d0d0d0;
+    padding: 20px;
+    text-align: center;
+}
