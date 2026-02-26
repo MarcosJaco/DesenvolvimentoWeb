@@ -1,0 +1,107 @@
+/* Formatações gerais */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Cabeçalho Sistema */
+
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background: url(imagens/fundo.png) repeat-x;
+}
+
+#cabecalho {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    background: url(imagens/detalhe-topo.png) no-repeat top right;
+    padding-top: 25px;
+}
+
+#logo {
+    width: 152px;
+    height: 66px;
+    background: url(imagens/logo.png) no-repeat center;
+    text-indent: -10000px;
+    overflow: hidden;
+}
+
+#navegacao-horizontal ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#navegacao-horizontal {
+    margin-bottom: 40px;
+}
+
+#brasil,
+#internacional,
+#economia,
+#saude,
+#ciencia,
+#fotos {
+    text-decoration: none;
+    color: white;
+    background: #b30000 url(imagens/divisor.png) repeat-y;
+    padding: 10px 14px;
+    position: relative;
+    bottom: 35px;
+    left: 60px;
+}
+
+#home-primeiro {
+    text-decoration: none;
+    color: white;
+    background-color: #b30000;
+    padding: 10px 14px;
+    position: relative;
+    bottom: 35px;
+    left: 60px;
+}
+
+#navegacao-horizontal a:hover {
+    color: #580202;
+}
+
+#navegacao-horizontal .ativo {
+    background-color: #e60000;
+}
+
+/* Formatação Colunas */
+
+#lateral {
+    width: 180px;
+    background-color: red;
+    float: left;
+}
+
+#secundario {
+    width: 270px;
+    background-color:blue;
+    float: left;
+}
+
+#principal {
+    width: 270px;
+    background-color: green;
+    float: left;
+}
+
+/* formatação Rodapé */
+
+#rodape {
+    background-color: #294c71;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin-top: 20px;
+    clear: both;
+}
